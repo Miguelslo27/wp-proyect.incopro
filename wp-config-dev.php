@@ -16,7 +16,7 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'garage_wp_infoagro');
+define('DB_NAME', 'garage_wp_incopro');
 
 /** Tu nombre de usuario de MySQL */
 define('DB_USER', 'garage_wp_infa_u');
