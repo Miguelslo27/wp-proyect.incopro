@@ -47,7 +47,7 @@
 					<nav class="float-right">
 						<ul class="header-nav">
 							<li>
-								<a href="#">IncoPro <span class="icon ion-chevron-down"></span></a>
+								<a href="/" <?php echo (is_home()) ? 'class="active"' : '' ?>>IncoPro <span class="icon ion-chevron-down"></span></a>
 								<ul>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
@@ -55,11 +55,11 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">Productos <span class="icon ion-chevron-down"></span></a>
+								<a href="/productos" <?php echo ($_SERVER['REQUEST_URI'] == '/productos/') ? 'class="active"' : '' ?>>Productos <span class="icon ion-chevron-down"></span></a>
 								<ul>
-									<li><a href="#">Subitem</a></li>
-									<li><a href="#">Subitem</a></li>
-									<li><a href="#">Subitem</a></li>
+									<li><a href="#">Hombres</a></li>
+									<li><a href="#">Mujeres</a></li>
+									<li><a href="#">Niños</a></li>
 								</ul>
 							</li>
 							<li>

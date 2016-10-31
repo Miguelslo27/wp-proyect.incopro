@@ -138,7 +138,7 @@
 		</div>
 	</div> <!-- end #content.post-dashboard.float-left.margin-bottom -->
 
-	<?php get_sidebar(); ?>
-</div> <!-- end #main.padding-slides -->
+	<?php // get_sidebar(); ?>
+</div> <!-- end #main -->
 <div id="delimiter"></div>
 <?php get_footer(); ?>
