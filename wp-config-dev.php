@@ -16,13 +16,13 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'garage_wp_incopro');
+define('DB_NAME', 'incopro_wp');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'garage_wp_infa_u');
+define('DB_USER', 'incopro_wp_admin');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'XMSo01u7kJtT');
+define('DB_PASSWORD', 'g)6T.NR}p]R9');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
