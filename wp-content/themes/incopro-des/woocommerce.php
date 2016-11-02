@@ -3,6 +3,7 @@
 	<?php get_sidebar(); ?>
 	<div id="content" class="auric-a float-right">
 		<div class="content-inner">
+			<?php woocommerce_content(); ?>
 			<div class="flex-box products">
 				<div class="products-row">
 					<div class="box product">
