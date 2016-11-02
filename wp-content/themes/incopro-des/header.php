@@ -48,11 +48,11 @@
 						<ul class="header-nav">
 							<li>
 								<a href="/" <?php echo (is_home()) ? 'class="active"' : '' ?>>IncoPro <span class="icon ion-chevron-down"></span></a>
-								<ul>
+								<!-- <ul>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li>
 								<a href="/productos" <?php echo ($_SERVER['REQUEST_URI'] == '/productos/') ? 'class="active"' : '' ?>>Productos <span class="icon ion-chevron-down"></span></a>
@@ -62,28 +62,27 @@
 									<li><a href="#">Niños</a></li>
 								</ul>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#">Test <span class="icon ion-chevron-down"></span></a>
 								<ul>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
 								</ul>
-							</li>
+							</li> -->
 							<li>
 								<a href="#">Contacto <span class="icon ion-chevron-down"></span></a>
-								<ul>
+								<!-- <ul>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
 									<li><a href="#">Subitem</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li>
 								<a href="#">Cliente <span class="icon ion-chevron-down"></span></a>
 								<ul>
-									<li><a href="#">Subitem</a></li>
-									<li><a href="#">Subitem</a></li>
-									<li><a href="#">Subitem</a></li>
+									<li><a href="#">Ingresar</a></li>
+									<li><a href="#">Registrarse</a></li>
 								</ul>
 							</li>
 						</ul> <!-- end .header-nav -->
