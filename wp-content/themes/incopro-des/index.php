@@ -94,7 +94,7 @@
 			</div>
 		</div>
 
-		<div class="content-inner grey-bg">
+		<!-- <div class="content-inner grey-bg">
 			<h2>Mi Producto Ideal</h2>
 			<h3>Haz nuestro test y descubre qué tipo de Indasec se adapta mejor a tus necesidades.</h3>
 
@@ -108,13 +108,20 @@
 					<h3><a href="#">Mujer</a></h3>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="content-inner">
 			<h2>Consejos Útiles</h2>
 
 			<div class="flex-box last-three-posts">
 				<div class="box post">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/temp/post-img2.jpg" alt="¿Qué es la incontinencia urinaria?">
+					<h3><a href="/2016/11/04/que-es-la-incontinencia-urinaria/">¿Qué es la incontinencia urinaria?</a></h3>
+					<p>Se define como la incapacidad para contener la salida de orina. Existen múltiples factores que pueden provocarla. No es una enfermedad. Es un síntoma de una dolencia subyacente. Por eso deberíamos acudir a nuestro médico de cabecera enseguida para que éste valore nuestro estado y estudie las causas. En sí mismo es una molestia que puede afectarnos en nuestro día a día.</p>
+					<a href="/2016/11/04/que-es-la-incontinencia-urinaria/">+ Más Información</a>
+				</div>
+
+				<!-- <div class="box post">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/temp/post-img.png" alt="Vejiga hiperactia vs incontinencia urinaria">
 					<h3><a href="#">Vejiga hiperactia vs incontinencia urinaria</a></h3>
 					<p>Es muy importante diferenciar entre los términos vejiga hiperactiva e incontinencia urinaria de urgencia, ya que en ocasiones se utilizan como sinónimos y no lo son. Diferencias entre vejiga hiperactiva e incontinencia urinaria. ¿Cómo funciona una vejiga hiperactiva? ¿Cuáles son sus causas? ¿Cómo puede tratarse la vejiga hiperactiva?</p>
@@ -126,14 +133,7 @@
 					<h3><a href="#">Vejiga hiperactia vs incontinencia urinaria</a></h3>
 					<p>Es muy importante diferenciar entre los términos vejiga hiperactiva e incontinencia urinaria de urgencia, ya que en ocasiones se utilizan como sinónimos y no lo son. Diferencias entre vejiga hiperactiva e incontinencia urinaria. ¿Cómo funciona una vejiga hiperactiva? ¿Cuáles son sus causas? ¿Cómo puede tratarse la vejiga hiperactiva?</p>
 					<a href="#">+ Más Información</a>
-				</div>
-
-				<div class="box post">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/temp/post-img.png" alt="Vejiga hiperactia vs incontinencia urinaria">
-					<h3><a href="#">Vejiga hiperactia vs incontinencia urinaria</a></h3>
-					<p>Es muy importante diferenciar entre los términos vejiga hiperactiva e incontinencia urinaria de urgencia, ya que en ocasiones se utilizan como sinónimos y no lo son. Diferencias entre vejiga hiperactiva e incontinencia urinaria. ¿Cómo funciona una vejiga hiperactiva? ¿Cuáles son sus causas? ¿Cómo puede tratarse la vejiga hiperactiva?</p>
-					<a href="#">+ Más Información</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div> <!-- end #content.post-dashboard.float-left.margin-bottom -->

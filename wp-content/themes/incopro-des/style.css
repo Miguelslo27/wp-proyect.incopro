@@ -8,6 +8,7 @@ Version: 1.0
 
 /* General styling */
 * { margin: 0; transition: all .1s ease; }
+
 img { display: block; }
 body {
 	/*background-attachment: fixed;*/
@@ -301,6 +302,7 @@ h3 {
 }
 #main .last-three-posts .post img {
 	display: block;
+	width: 100%;
 }
 #main .last-three-posts .post h3 {
 	text-align: left;

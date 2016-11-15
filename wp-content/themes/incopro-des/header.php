@@ -3,6 +3,7 @@
 <head>
 	<!-- Charset -->
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+
 	<!-- Responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -18,6 +19,7 @@
 	<!-- Title of wp blog -->
 	<title><?php bloginfo( 'name' ); ?> <?php wp_title(); ?></title>
 </head>
+
 <body <?php body_class(); ?>>
 	<div id="wrapper">
 		<header>
@@ -57,9 +59,9 @@
 							<li>
 								<a href="/productos" <?php echo ($_SERVER['REQUEST_URI'] == '/productos/') ? 'class="active"' : '' ?>>Productos <span class="icon ion-chevron-down"></span></a>
 								<ul>
-									<li><a href="#">Hombres</a></li>
-									<li><a href="#">Mujeres</a></li>
-									<li><a href="#">Niños</a></li>
+									<li><a href="/productos/hombres">Hombres</a></li>
+									<li><a href="/productos/mujeres">Mujeres</a></li>
+									<li><a href="/productos/ninos">Niños</a></li>
 								</ul>
 							</li>
 							<!-- <li>
